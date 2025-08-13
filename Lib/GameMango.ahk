@@ -251,13 +251,6 @@ StoryMode() {
     ; Execute the movement pattern
     ProcessLog("Moving to position for " currentStoryMap)
     StoryMovement()
-
-    if (ok := FindText(&X, &Y, 311 - 150000, 399 - 150000, 311 + 150000, 399 + 150000, 0, 0, RewardsText)) {
-        ProcessLog('Achei o botão')
-    } else {
-        ProcessLog('Não achei')
-    }
-
     while !(ok := FindText(&X, &Y, 263, 386, 356, 411, 0, 0, RewardsText)) {
         StoryMovement()
     }
@@ -579,8 +572,6 @@ StartStory(map, StoryActDropdown) {
     }
     Sleep(500)
 
-    ProcessLog('Iniciei historia')
-
     downArrows := GetStoryDownArrows(map) ; Map selection down arrows
     SendInput("{Left}")
     Sleep(500)
@@ -608,7 +599,6 @@ StartStory(map, StoryActDropdown) {
         Sleep(200)
     }
 
-    ProcessLog('Iniciei ATO')
     actArrows := GetStoryActDownArrows(StoryActDropdown) ; Act selection down arrows
 
     if (actArrows == 0) {
@@ -621,7 +611,22 @@ StartStory(map, StoryActDropdown) {
         }
         SendInput("{Enter}") ; Select Act
     }
+
     Sleep(500)
+
+    loop 8 {
+        SendInput("{Down}")
+        Sleep(500)
+    }
+    SendInput("{Left}")
+    Sleep(1000)
+    SendInput("{Enter}")
+    Sleep(2000)
+    SendInput("{Right}")
+    Sleep(1000)
+    SendInput("{Enter}")
+    Sleep(500)
+
     for key in navKeys {
         SendInput("{" key "}")
     }
@@ -688,44 +693,6 @@ GetStoryActDownArrows(StoryActDropdown) {
         case "Act 5": return 4
         case "Act 6": return 5
         case "Infinity": return 6
-    }
-}
-
-GetLegendDownArrows(map) {
-    switch map {
-        case "Magic Hills": return 1
-        case "Space Center": return 3
-        case "Fabled Kingdom": return 4
-        case "Virtual Dungeon": return 6
-        case "Dungeon Throne": return 7
-        case "Rain Village": return 8
-    }
-}
-
-GetLegendActDownArrows(LegendActDropdown) {
-    switch LegendActDropdown {
-        case "Act 1": return 1
-        case "Act 2": return 2
-        case "Act 3": return 3
-    }
-}
-
-GetRaidDownArrows(map) {
-    switch map {
-        case "Ant Kingdom": return 1
-        case "Sacred Planet": return 2
-        case "Strange Town": return 3
-        case "Ruined City": return 4
-    }
-}
-
-GetRaidActDownArrows(RaidActDropdown) {
-    switch RaidActDropdown {
-        case "Act 1": return 1
-        case "Act 2": return 2
-        case "Act 3": return 3
-        case "Act 4": return 4
-        case "Act 5": return 5
     }
 }
 
@@ -800,38 +767,23 @@ DetectMap() {
             return CheckMatchmaking()
         }
 
-        ; Check for vote screen
-        if (ok := FindText(&X, &Y, 326, 60, 547, 173, 0, 0, VoteStart)) {
-            ProcessLog("No Map Found or Movement Unnecessary")
-            return "no map found"
-        }
-
         mapPatterns := Map(
-            "Ant Kingdom", Ant,
-            "Sand Village", Sand,
-            "Magic Town", MagicTown,
-            "Magic Hill", MagicHills,
-            "Navy Bay", Navy,
-            "Snowy Town", SnowyTown,
-            "Fiend City", Fiend,
-            "Spirit World", Spirit,
-            "Haunted Academy", Academy,
-            "Space Center", SpaceCenter,
-            "Mountain Temple", Mount,
-            "Cursed Festival", Cursed,
-            "Nightmare Train", Nightmare
+            "Innovation Island", Innovation
         )
 
         for mapName, pattern in mapPatterns {
-            if (ok := FindText(&X, &Y, 10, 90, 415, 160, 0, 0, pattern)) {
+            ProcessLog('LOOP FOR')
+            if (ok := FindText(&X, &Y, 668, 251, 722, 262, 0, 0, pattern)) {
                 ProcessLog("Detected map: " mapName)
                 return mapName
+            }else{
+                ProcessLog('Não achei mapa')
             }
         }
-
-        Sleep 1000
-        Reconnect()
     }
+
+    Sleep 1000
+    Reconnect()
 }
 
 HandleMapMovement(MapName) {
@@ -1009,7 +961,7 @@ MoveForHolidayHunt() {
 ;x158 y95 w59 h25
 
 RestartStage() {
-    global hasCheckedStandardLoad
+    ProcessLog('oi')
     currentMap := DetectMap()
 
     x1 := searchArea[1], y1 := searchArea[2], x2 := searchArea[3], y2 := searchArea[4]
