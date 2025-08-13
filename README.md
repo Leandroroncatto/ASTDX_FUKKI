@@ -1,8 +1,7 @@
-# Backk-Mist-Version
-My Version of Mist AA Macro, with some shit codes update
+# ASTDX_FUKKI Version
+This macro is based on MIST AA macro
 
-Credits
-Original Macro by: @Mist
+credits: MIST & FAXI
 
 This macro is intended for educational purposes.
 Contributions
@@ -25,4 +24,3 @@ The licensee may not sublicense or share the Software with any third party witho
 
 No Warranty:
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
