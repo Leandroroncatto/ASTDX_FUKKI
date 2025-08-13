@@ -252,13 +252,13 @@ StoryMode() {
     ProcessLog("Moving to position for " currentStoryMap)
     StoryMovement()
 
-    if (ok := FindText(&X, &Y, 711 - 150000, 519 - 150000, 711 + 150000, 519 + 150000, 0, 0, LeaveText)) {
+    if (ok := FindText(&X, &Y, 311 - 150000, 399 - 150000, 311 + 150000, 399 + 150000, 0, 0, RewardsText)) {
         ProcessLog('Achei o botão')
     } else {
         ProcessLog('Não achei')
     }
 
-    while !(ok := FindText(&X, &Y, 632, 489, 790, 552, 0, 0, LeaveText)) {
+    while !(ok := FindText(&X, &Y, 263, 386, 356, 411, 0, 0, RewardsText)) {
         StoryMovement()
     }
     ProcessLog("Starting " currentStoryMap " - " currentStoryAct)
@@ -281,7 +281,7 @@ ChallengeMode() {
     ProcessLog("Moving to Challenge mode")
     ChallengeMovement()
 
-    while !(ok := FindText(&X, &Y, 325, 520, 489, 587, 0, 0, LeaveText)) {
+    while !(ok := FindText(&X, &Y, 325, 520, 489, 587, 0, 0, RewardsText)) {
         ChallengeMovement()
     }
 
@@ -569,7 +569,6 @@ ChallengeMovement() {
 }
 
 StartStory(map, StoryActDropdown) {
-    ProcessLog('Inicio ---')
     navKeys := StrSplit(FileExist("Settings\UINavigation.txt") ? FileRead("Settings\UINavigation.txt", "UTF-8") :
         "\,#,}", ",")
     FixClick(770, 60) ; Closes Player leaderboard
@@ -580,31 +579,48 @@ StartStory(map, StoryActDropdown) {
     }
     Sleep(500)
 
+    ProcessLog('Iniciei historia')
+
     downArrows := GetStoryDownArrows(map) ; Map selection down arrows
-    loop downArrows {
-        SendInput("{Down}")
-        Sleep(200)
-        SendInput("{Left}")
-        Sleep(200)
+    SendInput("{Left}")
+    Sleep(500)
+    SendInput("{Left}")
+    Sleep(500)
+
+    if (downArrows == 0) {
+        SendInput("{Enter}") ; Select storymode
+    } else {
+        loop downArrows {
+            SendInput("{Down}")
+            Sleep(500)
+        }
     }
 
     SendInput("{Enter}") ; Select storymode
     Sleep(500)
-
-    loop 6 {
-        SendInput("{{Right}}")
+    SendInput("{Enter}") ; Select storymode
+    loop 5 {
+        SendInput("{Right}")
         Sleep(200)
-        SendInput("{Up}") ; Makes sure it selects act
+    }
+    loop 5 {
+        SendInput("{Up}")
         Sleep(200)
     }
 
+    ProcessLog('Iniciei ATO')
     actArrows := GetStoryActDownArrows(StoryActDropdown) ; Act selection down arrows
-    loop actArrows {
-        SendInput("{Down}")
-        Sleep(200)
-    }
 
-    SendInput("{Enter}") ; Select Act
+    if (actArrows == 0) {
+        Sleep(200)
+        SendInput("{Enter}")
+    } else {
+        loop actArrows {
+            SendInput("{Down}")
+            Sleep(200)
+        }
+        SendInput("{Enter}") ; Select Act
+    }
     Sleep(500)
     for key in navKeys {
         SendInput("{" key "}")
@@ -653,39 +669,25 @@ FindMatch() {
 
 GetStoryDownArrows(map) {
     switch map {
-        case "Innovation Island": return 2
-        case "Walled City": return 3
-        case "Snowy Town": return 4
-        case "Sand Village": return 5
-        case "Navy Bay": return 6
-        case "Fiend City": return 7
-        case "Spirit World": return 8
-        case "Ant Kingdom": return 9
-        case "Magic Town": return 10
-        case "Haunted Academy": return 11
-        case "Magic Hills": return 12
-        case "Space Center": return 13
-        case "Alien Spaceship": return 14
-        case "Fabled Kingdom": return 15
-        case "Ruined City": return 16
-        case "Puppet Island": return 17
-        case "Virtual Dungeon": return 18
-        case "Snowy Kingdom": return 19
-        case "Dungeon Throne": return 20
-        case "Mountain Temple": return 21
-        case "Rain Village": return 22
+        case "Innovation Island": return 0
+        case "City of Voldstandig": return 1
+        case "Future City (Ruins)": return 2
+        case "Hidden Storm Village": return 3
+        case "Giant Island": return 4
+        case "City of York": return 5
+        case "Shadow Tournament": return 6
     }
 }
 
 GetStoryActDownArrows(StoryActDropdown) {
     switch StoryActDropdown {
-        case "Infinity": return 1
-        case "Act 1": return 2
-        case "Act 2": return 3
-        case "Act 3": return 4
-        case "Act 4": return 5
-        case "Act 5": return 6
-        case "Act 6": return 7
+        case "Act 1": return 0
+        case "Act 2": return 1
+        case "Act 3": return 2
+        case "Act 4": return 3
+        case "Act 5": return 4
+        case "Act 6": return 5
+        case "Infinity": return 6
     }
 }
 
