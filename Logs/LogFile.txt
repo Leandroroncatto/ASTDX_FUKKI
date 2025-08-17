@@ -6651,3 +6651,820 @@ Não achei 00:14
 ====
   Start Time: [23h.39m.51s]
 Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [23h.54m.52s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:03
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:03
+Moving to position for Innovation Island 00:10
+Não achei 00:21
+
+====
+  Start Time: [23h.55m.19s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.01m.21s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:02
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:02
+Moving to position for Innovation Island 00:03
+Achei o botão 00:14
+
+====
+  Start Time: [0h.01m.46s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.03m.23s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:02
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:02
+Moving to position for Innovation Island 00:04
+Achei o botão 00:14
+Starting Innovation Island - Act 1 00:14
+Inicio --- 00:14
+Determining Movement Necessity on Map... 00:25
+
+====
+  Start Time: [0h.03m.53s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.07m.20s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:03
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:04
+Moving to position for Innovation Island 00:05
+Achei o botão 00:15
+Starting Innovation Island - Act 1 00:16
+Determining Movement Necessity on Map... 00:27
+
+====
+  Start Time: [0h.08m.20s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:06
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:06
+Moving to position for Innovation Island 00:09
+Achei o botão 00:20
+Starting Innovation Island - Act 1 00:20
+Determining Movement Necessity on Map... 00:31
+
+====
+  Start Time: [0h.09m.00s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.09m.34s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:03
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:04
+Moving to position for Innovation Island 00:13
+Achei o botão 00:23
+Starting Innovation Island - Act 1 00:23
+Determining Movement Necessity on Map... 00:34
+
+====
+  Start Time: [0h.10m.13s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.13m.51s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:02
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:02
+Moving to position for Innovation Island 00:05
+Achei o botão 00:16
+Starting Innovation Island - Act 1 00:16
+
+====
+  Start Time: [0h.14m.20s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.15m.57s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:02
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:03
+Moving to position for Innovation Island 00:04
+Achei o botão 00:14
+Starting Innovation Island - Act 1 00:15
+
+====
+  Start Time: [0h.16m.25s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.16m.27s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:03
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:03
+Moving to position for Innovation Island 00:06
+Achei o botão 00:16
+Starting Innovation Island - Act 1 00:16
+
+====
+  Start Time: [0h.16m.54s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.17m.27s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:03
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:03
+Moving to position for Innovation Island 00:04
+Achei o botão 00:16
+Starting Innovation Island - Act 1 00:16
+Iniciei historia 00:20
+Iniciei ATO 00:24
+
+====
+  Start Time: [0h.17m.55s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 2 00:17
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:17
+Moving to position for Innovation Island 00:19
+Achei o botão 00:29
+Starting Innovation Island - Act 2 00:29
+Iniciei historia 00:34
+Iniciei ATO 00:38
+Determining Movement Necessity on Map... 00:41
+
+====
+  Start Time: [0h.18m.38s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.20m.25s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:02
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:02
+Moving to position for Innovation Island 00:03
+Achei o botão 00:13
+Starting Innovation Island - Act 1 00:14
+Iniciei historia 00:18
+Iniciei ATO 00:24
+
+====
+  Start Time: [0h.20m.54s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.21m.01s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:01
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:02
+Moving to position for Innovation Island 00:03
+Achei o botão 00:13
+Starting Innovation Island - Act 1 00:13
+Iniciei historia 00:17
+Iniciei ATO 00:23
+Determining Movement Necessity on Map... 00:26
+
+====
+  Start Time: [0h.21m.35s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.22m.15s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:05
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:05
+Moving to position for Innovation Island 00:06
+Achei o botão 00:16
+Starting Innovation Island - Act 1 00:16
+Iniciei historia 00:20
+Iniciei ATO 00:27
+Determining Movement Necessity on Map... 00:30
+
+====
+  Start Time: [0h.22m.50s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 6 00:05
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:05
+Moving to position for Innovation Island 00:06
+Achei o botão 00:17
+Starting Innovation Island - Act 6 00:17
+Iniciei historia 00:21
+Iniciei ATO 00:27
+Determining Movement Necessity on Map... 00:31
+
+====
+  Start Time: [0h.23m.24s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.24m.13s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:02
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:02
+Moving to position for Innovation Island 00:04
+Achei o botão 00:15
+Starting Innovation Island - Act 1 00:15
+Iniciei historia 00:19
+Iniciei ATO 00:23
+Determining Movement Necessity on Map... 00:25
+
+====
+  Start Time: [0h.24m.42s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 5 00:04
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:04
+Moving to position for Innovation Island 00:05
+Achei o botão 00:15
+Starting Innovation Island - Act 5 00:16
+Iniciei historia 00:20
+Iniciei ATO 00:23
+Determining Movement Necessity on Map... 00:27
+
+====
+  Start Time: [0h.25m.13s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.28m.39s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:03
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:03
+Moving to position for Innovation Island 00:05
+Achei o botão 00:15
+Starting Innovation Island - Act 1 00:15
+Iniciei historia 00:19
+Iniciei ATO 00:23
+Determining Movement Necessity on Map... 00:26
+
+====
+  Start Time: [0h.29m.11s]
+Configuration settings loaded successfully 00:00
+Selected City of Voldstandig - Act 1 00:05
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:05
+Moving to position for City of Voldstandig 00:07
+Achei o botão 00:17
+Starting City of Voldstandig - Act 1 00:17
+Iniciei historia 00:21
+Iniciei ATO 00:25
+
+====
+  Start Time: [0h.29m.39s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.31m.10s]
+Configuration settings loaded successfully 00:00
+Selected City of Voldstandig - Act 3 00:05
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:05
+Moving to position for City of Voldstandig 00:06
+Achei o botão 00:17
+Starting City of Voldstandig - Act 3 00:17
+Iniciei historia 00:21
+Iniciei ATO 00:25
+Determining Movement Necessity on Map... 00:28
+
+====
+  Start Time: [0h.31m.42s]
+Configuration settings loaded successfully 00:00
+Selected City of Voldstandig - Act 2 00:35
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:35
+Moving to position for City of Voldstandig 00:37
+Achei o botão 00:47
+Starting City of Voldstandig - Act 2 00:48
+Iniciei historia 00:52
+Iniciei ATO 00:56
+Determining Movement Necessity on Map... 00:59
+
+====
+  Start Time: [0h.32m.46s]
+Configuration settings loaded successfully 00:00
+Selected Future City (Ruins) - Act 4 00:04
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:05
+Moving to position for Future City (Ruins) 00:06
+Achei o botão 00:16
+Starting Future City (Ruins) - Act 4 00:16
+Iniciei historia 00:20
+Iniciei ATO 00:25
+Determining Movement Necessity on Map... 00:28
+
+====
+  Start Time: [0h.33m.20s]
+Configuration settings loaded successfully 00:00
+Selected Giant Island - Infinity 00:05
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:06
+Moving to position for Giant Island 00:07
+Achei o botão 00:17
+Starting Giant Island - Infinity 00:17
+Iniciei historia 00:21
+Iniciei ATO 00:28
+Checking for numbers... 00:31
+Could not detect valid captcha 00:32
+Captcha not detected, retrying... 00:32
+
+====
+  Start Time: [0h.33m.54s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.36m.06s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.39m.29s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:23
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:23
+Moving to position for Innovation Island 00:25
+Starting Innovation Island - Act 1 00:35
+
+====
+  Start Time: [0h.40m.22s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:09
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:09
+Moving to position for Innovation Island 00:10
+Starting Innovation Island - Act 1 00:20
+
+====
+  Start Time: [0h.40m.59s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.41m.00s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.42m.27s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:02
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:03
+Moving to position for Innovation Island 00:04
+Starting Innovation Island - Act 1 00:15
+
+====
+  Start Time: [0h.43m.01s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.43m.03s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.43m.03s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.44m.08s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 4 00:03
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:03
+Moving to position for Innovation Island 00:05
+Starting Innovation Island - Act 4 00:25
+Determining Movement Necessity on Map... 00:44
+
+====
+  Start Time: [0h.45m.28s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.59m.39s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:08
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:08
+Moving to position for Innovation Island 00:13
+Starting Innovation Island - Act 1 00:30
+oi 00:49
+Determining Movement Necessity on Map... 00:49
+
+====
+  Start Time: [1h.01m.11s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [1h.04m.29s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:17
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:20
+Moving to position for Innovation Island 00:23
+Starting Innovation Island - Act 1 00:37
+oi 00:56
+Determining Movement Necessity on Map... 00:56
+
+====
+  Start Time: [1h.06m.51s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [1h.08m.13s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:04
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:04
+Moving to position for Innovation Island 00:07
+Starting Innovation Island - Act 1 00:17
+oi 00:36
+Determining Movement Necessity on Map... 00:36
+
+====
+  Start Time: [1h.08m.58s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [1h.09m.50s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:11
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:11
+Moving to position for Innovation Island 00:20
+
+====
+  Start Time: [1h.10m.18s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:02
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:02
+Moving to position for Innovation Island 00:05
+
+====
+  Start Time: [1h.10m.29s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:03
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:04
+Moving to position for Innovation Island 00:04
+Starting Innovation Island - Act 1 00:15
+oi 00:33
+Determining Movement Necessity on Map... 00:33
+TENTANDO ACHAR MAPA 00:34
+LOOP FOR 00:34
+Não achei mapa 00:34
+TENTANDO ACHAR MAPA 00:34
+LOOP FOR 00:35
+Não achei mapa 00:35
+TENTANDO ACHAR MAPA 00:35
+LOOP FOR 00:35
+Não achei mapa 00:36
+TENTANDO ACHAR MAPA 00:36
+LOOP FOR 00:36
+Não achei mapa 00:36
+TENTANDO ACHAR MAPA 00:36
+LOOP FOR 00:37
+Não achei mapa 00:37
+TENTANDO ACHAR MAPA 00:37
+LOOP FOR 00:37
+Não achei mapa 00:38
+TENTANDO ACHAR MAPA 00:38
+LOOP FOR 00:38
+Não achei mapa 00:38
+TENTANDO ACHAR MAPA 00:38
+LOOP FOR 00:39
+Não achei mapa 00:39
+TENTANDO ACHAR MAPA 00:39
+LOOP FOR 00:39
+Não achei mapa 00:40
+TENTANDO ACHAR MAPA 00:40
+LOOP FOR 00:40
+Não achei mapa 00:40
+TENTANDO ACHAR MAPA 00:41
+LOOP FOR 00:41
+Não achei mapa 00:41
+TENTANDO ACHAR MAPA 00:41
+LOOP FOR 00:41
+Não achei mapa 00:42
+TENTANDO ACHAR MAPA 00:42
+LOOP FOR 00:42
+Não achei mapa 00:42
+TENTANDO ACHAR MAPA 00:43
+LOOP FOR 00:43
+Não achei mapa 00:43
+TENTANDO ACHAR MAPA 00:43
+LOOP FOR 00:43
+Não achei mapa 00:44
+TENTANDO ACHAR MAPA 00:44
+LOOP FOR 00:44
+Não achei mapa 00:44
+TENTANDO ACHAR MAPA 00:45
+LOOP FOR 00:45
+Não achei mapa 00:45
+TENTANDO ACHAR MAPA 00:45
+LOOP FOR 00:46
+Não achei mapa 00:46
+TENTANDO ACHAR MAPA 00:46
+LOOP FOR 00:46
+Não achei mapa 00:46
+TENTANDO ACHAR MAPA 00:47
+LOOP FOR 00:47
+Não achei mapa 00:47
+TENTANDO ACHAR MAPA 00:47
+LOOP FOR 00:48
+Não achei mapa 00:48
+TENTANDO ACHAR MAPA 00:48
+LOOP FOR 00:48
+Não achei mapa 00:48
+TENTANDO ACHAR MAPA 00:49
+LOOP FOR 00:49
+Não achei mapa 00:49
+TENTANDO ACHAR MAPA 00:49
+LOOP FOR 00:50
+Não achei mapa 00:50
+TENTANDO ACHAR MAPA 00:50
+LOOP FOR 00:50
+Não achei mapa 00:50
+TENTANDO ACHAR MAPA 00:51
+LOOP FOR 00:51
+Não achei mapa 00:51
+TENTANDO ACHAR MAPA 00:51
+LOOP FOR 00:52
+Não achei mapa 00:52
+TENTANDO ACHAR MAPA 00:52
+LOOP FOR 00:52
+Não achei mapa 00:52
+TENTANDO ACHAR MAPA 00:53
+LOOP FOR 00:53
+Não achei mapa 00:53
+TENTANDO ACHAR MAPA 00:53
+LOOP FOR 00:54
+Não achei mapa 00:54
+TENTANDO ACHAR MAPA 00:54
+LOOP FOR 00:54
+Não achei mapa 00:54
+TENTANDO ACHAR MAPA 00:55
+LOOP FOR 00:55
+Não achei mapa 00:55
+TENTANDO ACHAR MAPA 00:55
+LOOP FOR 00:55
+Não achei mapa 00:56
+TENTANDO ACHAR MAPA 00:56
+LOOP FOR 00:56
+Não achei mapa 00:56
+TENTANDO ACHAR MAPA 00:57
+LOOP FOR 00:57
+Não achei mapa 00:57
+TENTANDO ACHAR MAPA 00:57
+LOOP FOR 00:57
+Não achei mapa 00:58
+TENTANDO ACHAR MAPA 00:58
+LOOP FOR 00:58
+Não achei mapa 00:58
+TENTANDO ACHAR MAPA 01:00
+LOOP FOR 01:00
+Não achei mapa 01:00
+TENTANDO ACHAR MAPA 01:01
+LOOP FOR 01:01
+Não achei mapa 01:01
+TENTANDO ACHAR MAPA 01:01
+LOOP FOR 01:02
+Não achei mapa 01:02
+TENTANDO ACHAR MAPA 01:02
+LOOP FOR 01:02
+Não achei mapa 01:02
+TENTANDO ACHAR MAPA 01:03
+LOOP FOR 01:03
+Não achei mapa 01:03
+TENTANDO ACHAR MAPA 01:03
+LOOP FOR 01:05
+Não achei mapa 01:05
+TENTANDO ACHAR MAPA 01:05
+LOOP FOR 01:06
+Não achei mapa 01:06
+TENTANDO ACHAR MAPA 01:06
+LOOP FOR 01:06
+Não achei mapa 01:06
+TENTANDO ACHAR MAPA 01:07
+LOOP FOR 01:07
+Não achei mapa 01:07
+TENTANDO ACHAR MAPA 01:07
+LOOP FOR 01:08
+Não achei mapa 01:08
+TENTANDO ACHAR MAPA 01:08
+LOOP FOR 01:08
+Não achei mapa 01:08
+TENTANDO ACHAR MAPA 01:09
+LOOP FOR 01:09
+Não achei mapa 01:09
+TENTANDO ACHAR MAPA 01:09
+LOOP FOR 01:10
+Não achei mapa 01:10
+TENTANDO ACHAR MAPA 01:10
+LOOP FOR 01:10
+Não achei mapa 01:10
+TENTANDO ACHAR MAPA 01:11
+LOOP FOR 01:11
+Não achei mapa 01:11
+TENTANDO ACHAR MAPA 01:11
+LOOP FOR 01:12
+Não achei mapa 01:12
+TENTANDO ACHAR MAPA 01:12
+LOOP FOR 01:12
+Não achei mapa 01:12
+TENTANDO ACHAR MAPA 01:13
+LOOP FOR 01:13
+Não achei mapa 01:13
+TENTANDO ACHAR MAPA 01:13
+LOOP FOR 01:14
+Não achei mapa 01:14
+TENTANDO ACHAR MAPA 01:14
+LOOP FOR 01:14
+Não achei mapa 01:14
+TENTANDO ACHAR MAPA 01:15
+LOOP FOR 01:15
+Não achei mapa 01:15
+TENTANDO ACHAR MAPA 01:15
+LOOP FOR 01:15
+Não achei mapa 01:16
+TENTANDO ACHAR MAPA 01:16
+LOOP FOR 01:16
+Não achei mapa 01:16
+TENTANDO ACHAR MAPA 01:17
+LOOP FOR 01:17
+Não achei mapa 01:17
+TENTANDO ACHAR MAPA 01:17
+
+====
+  Start Time: [1h.11m.48s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.41m.30s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:36
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:36
+Moving to position for Innovation Island 00:42
+Starting Innovation Island - Act 1 00:52
+
+====
+  Start Time: [0h.42m.38s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.49m.09s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:04
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:04
+Moving to position for Innovation Island 00:17
+
+====
+  Start Time: [0h.49m.29s]
+Configuration settings loaded successfully 00:00
+Please select a gamemode before starting the macro! 00:00
+Selected Innovation Island - Act 1 00:06
+Please click the confirm button before starting the macro! 00:06
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:07
+Moving to position for Innovation Island 00:10
+Starting Innovation Island - Act 1 00:20
+Determining Movement Necessity on Map... 00:39
+LOOP FOR 00:39
+Não achei mapa 00:40
+LOOP FOR 00:40
+achei o mapa 00:40
+Não achei mapa 00:40
+LOOP FOR 00:40
+achei o mapa 00:41
+Não achei mapa 00:41
+LOOP FOR 00:41
+achei o mapa 00:41
+Não achei mapa 00:42
+LOOP FOR 00:42
+achei o mapa 00:42
+Não achei mapa 00:42
+LOOP FOR 00:43
+achei o mapa 00:43
+Não achei mapa 00:43
+LOOP FOR 00:43
+achei o mapa 00:44
+Não achei mapa 00:44
+LOOP FOR 00:44
+achei o mapa 00:44
+Não achei mapa 00:45
+LOOP FOR 00:45
+achei o mapa 00:45
+Não achei mapa 00:45
+LOOP FOR 00:46
+achei o mapa 00:46
+Não achei mapa 00:46
+LOOP FOR 00:46
+achei o mapa 00:47
+Não achei mapa 00:47
+LOOP FOR 00:47
+achei o mapa 00:47
+Não achei mapa 00:47
+LOOP FOR 00:48
+
+====
+  Start Time: [0h.50m.19s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [0h.50m.53s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:07
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:07
+Moving to position for Innovation Island 00:18
+Starting Innovation Island - Act 1 00:28
+Determining Movement Necessity on Map... 00:47
+LOOP FOR 00:47
+Não achei mapa 00:47
+LOOP FOR 00:48
+Não achei mapa 00:48
+LOOP FOR 00:48
+Detected map: Innovation Island 00:49
+Innovation Island 00:49
+
+====
+  Start Time: [0h.52m.02s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 2 21:29
+Don't forget to enable Click to Move! (I forget sometimes too!) 21:29
+Moving to position for Innovation Island 21:31
+Starting Innovation Island - Act 2 21:41
+Determining Movement Necessity on Map... 21:59
+LOOP FOR 22:00
+Não achei mapa 22:00
+LOOP FOR 22:00
+Não achei mapa 22:01
+LOOP FOR 22:01
+Detected map: Innovation Island 22:01
+Innovation Island 22:02
+
+====
+  Start Time: [1h.14m.51s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [1h.19m.26s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:01
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:01
+Moving to position for Innovation Island 00:03
+Starting Innovation Island - Act 1 00:13
+Determining Movement Necessity on Map... 00:31
+Não achei mapa 00:32
+Não achei mapa 00:32
+Detected map: Innovation Island 00:33
+OIIII 00:33
+Executing Movement for: Innovation Island 00:36
+
+====
+  Start Time: [1h.20m.05s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [1h.20m.44s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:05
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:05
+Moving to position for Innovation Island 00:19
+Starting Innovation Island - Act 1 00:29
+Determining Movement Necessity on Map... 00:48
+Não achei mapa 00:48
+Não achei mapa 00:49
+Não achei mapa 00:49
+Detected map: Innovation Island 00:49
+Executing Movement for: Innovation Island 00:53
+Game started 00:53
+Placing Unit 1 (0/3) 00:53
+
+====
+  Start Time: [1h.21m.53s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [1h.27m.55s]
+Configuration settings loaded successfully 00:00
+Selected Innovation Island - Act 1 00:20
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:20
+Moving to position for Innovation Island 00:22
+Starting Innovation Island - Act 1 00:32
+Determining Movement Necessity on Map... 00:51
+Não achei mapa 00:51
+Não achei mapa 00:52
+Não achei mapa 00:52
+Detected map: Innovation Island 00:53
+OIIII 00:53
+Executing Movement for: Innovation Island 00:53
+Game started 00:54
+Game started 00:59
+Placing Unit 1 (0/3) 00:59
+
+====
+  Start Time: [1h.29m.10s]
+Configuration settings loaded successfully 00:00
+
+====
+  Start Time: [1h.33m.50s]
+Configuration settings loaded successfully 00:00
+Found Roblox window 00:15
+Selected Innovation Island - Act 1 00:22
+Don't forget to enable Click to Move! (I forget sometimes too!) 00:30
+Moving to position for Innovation Island 00:36
+Starting Innovation Island - Act 1 00:47
+Determining Movement Necessity on Map... 01:06
+Não achei mapa 01:07
+Não achei mapa 01:07
+Não achei mapa 01:08
+Não achei mapa 01:08
+Detected map: Innovation Island 01:08
+OIIII 01:09
+Executing Movement for: Innovation Island 01:09
+Game started 01:10
+Game started 01:13
+Placing Unit 1 (0/3) 01:13
+
+====
+  Start Time: [1h.35m.23s]
+Configuration settings loaded successfully 00:00
+Waiting for Roblox window... 50:38

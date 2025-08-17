@@ -13,7 +13,6 @@ global searchArea := [0, 0, A_ScreenWidth, A_ScreenHeight]
 
 global greenfoundx := 0
 global greenfoundy := 0
-global hasCheckedStandardLoad := false
 
 ;HotKeys
 F1:: {
@@ -721,19 +720,11 @@ Zoom() {
 }
 
 TpSpawn() {
-    FixClick(26, 570) ;click settings
-    Sleep 300
-    FixClick(400, 215)
-    Sleep 300
-    loop 4 {
-        Sleep 150
-        SendInput("{WheelDown 1}") ;scroll
-    }
-    Sleep 300
-    FixClick(525, 325) ;Tp spawn
-    Sleep 300
-    FixClick(583, 147)
-    Sleep 300
+    SendInput("{Escape}")
+    Sleep(200)
+    SendInput("R")
+    Sleep(200)
+    SendInput("{Enter}")
 }
 
 CloseChat() {
@@ -745,8 +736,6 @@ CloseChat() {
 
 BasicSetup() {
     SendInput("{Tab}") ; Closes Player leaderboard
-    Sleep 300
-    FixClick(564, 72) ; Closes Player leaderboard
     Sleep 300
     CloseChat()
     Sleep 300
@@ -772,11 +761,10 @@ DetectMap() {
         )
 
         for mapName, pattern in mapPatterns {
-            ProcessLog('LOOP FOR')
-            if (ok := FindText(&X, &Y, 668, 251, 722, 262, 0, 0, pattern)) {
+            if (ok := FindText(&X, &Y, 142 - 150000, 513 - 150000, 142 + 150000, 513 + 150000, 0, 0, pattern)) {
                 ProcessLog("Detected map: " mapName)
                 return mapName
-            }else{
+            } else {
                 ProcessLog('Não achei mapa')
             }
         }
@@ -958,59 +946,26 @@ MoveForHolidayHunt() {
     Sleep (4000)
 }
 
-;x158 y95 w59 h25
-
 RestartStage() {
-    ProcessLog('oi')
     currentMap := DetectMap()
-
     x1 := searchArea[1], y1 := searchArea[2], x2 := searchArea[3], y2 := searchArea[4]
 
-    ; Wait for loading and changes the hasCheckedStandadLoad status
-    CheckLoaded()
-
-    Sleep(2000)
-    if (hasCheckedStandardLoad == false) {
-        sleep(10000)
-        ProcessLog('Loading took too long')
-        ProcessLog('Starting Setup')
-        connectStage(currentMap, hasCheckedStandardLoad)
-        return
-    }
-
-    try {
-        ;if loaded correctly, will setup the macro
-        connectStage(currentMap, hasCheckedStandardLoad)
-    } catch Error as e {
-        ProcessLog("Error Log: " e)
-    }
-
-    ;go back to the default value
-    hasCheckedStandardLoad := false
+    connectStage(currentMap)
 }
 
-connectStage(cmap, status) {
-    currentMap := cmap ;currentmap
-    loadStatus := status
-
-    BasicSetup()
+connectStage(cmap) {
+    currentMap := cmap
 
     if (currentMap != "no map found") {
         HandleMapMovement(currentMap)
     }
 
-    ; Wait for game to actually start
-    if (loadStatus == true) {
-        StartedGame()
-    } else {
-        ;
-        ProcessLog("Game started")
-        global stageStartTime := A_TickCount
-    }
+    StartedGame()
 
-    if (ModeDropdown.Text = "Holiday Hunt") {
-        MoveForHolidayHunt()
-    }
+    BasicSetup()
+
+    ProcessLog("Game started")
+    global stageStartTime := A_TickCount
 
     ; Begin unit placement and management
     PlacingUnits()
@@ -1142,6 +1097,7 @@ CheckLobby() {
     loop {
         Sleep 1000
         if (ok := FindText(&X, &Y, 746, 514, 789, 530, 0, 0, AreaText)) {
+            ProcessLog('OI')
             break
         }
         Reconnect()
@@ -1150,39 +1106,20 @@ CheckLobby() {
     return StartSelectedMode()
 }
 
-CheckLoaded() {
-    global hasCheckedStandardLoad
-    loop {
-        ; Check for vote screen
-        if (ok := FindText(&X, &Y, 326, 60, 547, 173, 0, 0, VoteStart)) {
-            ProcessLog("Successfully Loaded In")
-            Sleep(1000)
-            hasCheckedStandardLoad := true
-            break
-        } else if (ok := FindText(&X, &Y, 156, 99, 217, 120, 0, 0, WaveText)) {
-            ;if theres no vote screen, detects the "wave" text
-            hasCheckedStandardLoad := false
-            break
-        }
-        ; reconects if it's a roblox error
-        Reconnect()
-    }
-}
-
 StartedGame() {
     loop {
         Sleep(1000)
-        if (ok := FindText(&X, &Y, 326, 60, 547, 173, 0, 0, VoteStart)) {
-            FixClick(350, 103) ; click yes
+        if (ok := FindText(&X, &Y, 351 - 150000, 143 - 150000, 351 + 150000, 143 + 150000, 0, 0, VoteText)) {
+            FixClick(350, 103)
             FixClick(350, 100)
             FixClick(350, 97)
-            continue  ; Keep waiting if vote screen is still there
+            ProcessLog('if vote start')
+            continue
         }
 
         ; If we don't see vote screen anymore the game has started
         ProcessLog("Game started")
         global stageStartTime := A_TickCount
-        break
     }
 }
 
